@@ -1,6 +1,6 @@
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import './App.css';
 
 function App() {
@@ -51,8 +51,7 @@ function App() {
         <div className="col-md-12 text-center mt-5">
 
           <div className="shadow rounded wetherResultBox">
-            <img className="weathorIcon"
-              src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" />
+            <img className="weathorIcon" src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="https://w7.pngwing.com/pngs/619/382/png-transparent-404-error-error-404-panel-attention-work-oops-signalling-danger-protection-thumbnail.png" />
 
             <h5 className="weathorCity">
               {data?.name}
